@@ -1,0 +1,85 @@
+body {
+    background-color: lightskyblue;
+    font-size: small;
+}
+
+
+.container {
+
+    margin: 8px;
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.foto {
+
+    display: flex;
+    justify-self: end;
+    width: 210px;
+    height: 140px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.box {
+position: absolute;
+top : 3px;
+left: 540px;
+background-color: white;
+border-radius: 5px;
+width: 100px;
+height: 100px;
+text-align: center;
+}
+
+
+
+
+
+.diva input[type="radio"] {
+    margin: 10px;
+    vertical-align: middle;
+
+}
+
+
+
+.diva label {
+    margin: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.divb input[type="radio"]:checked+label {
+    color: #00698f;
+    font-weight: bold;
+}
+
+.divb label[type="checkbox"] {
+    margin: 10px;
+    vertical-align: middle;
+}
+
+.divc #keuzemenu x {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.divc #keuzemenu option {
+    padding: 10px;
+}
+
+
+
+.divd {
+    float: right;
+    margin-left: 20px;
+    height: 90px;
+    padding-bottom: 50%;
+    margin-top: -250px  ;
+    
+}
